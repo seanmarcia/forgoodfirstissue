@@ -3,13 +3,14 @@ import Select from "react-select";
 type SDGFilterProps = {
   setSelectedTopics: (topics: string[]) => void;
   topicOptions: { value: string; label: string }[];
+  customLabelText?: string;
 };
 
-export const SDGFilter = ({ setSelectedTopics, topicOptions }: SDGFilterProps) => {
+export const SDGFilter = ({ setSelectedTopics, topicOptions, customLabelText }: SDGFilterProps) => {
   return (
     <>
       <div>
-        <label className="label">Sustainable Development Goal (SDG)</label>
+        <label className="label">{customLabelText || "Sustainable Development Goal (SDG)"}</label>
         <Select
           isMulti
           className=""

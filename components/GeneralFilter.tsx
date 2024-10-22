@@ -13,7 +13,7 @@ export const GeneralFilter = ({ filter, setFilter }: GeneralFilterProps) => {
         type="text"
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
-        placeholder="Search Repositories"
+        placeholder="Search Requests"
         className="flex-1 rounded-sm p-2"
       />
     </div>
