@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "organization": "Organization A",
+    "short_description": "Short description for Organization A",
+    "dedicated_contact": true,
+    "languages": ["JavaScript", "Python"],
+    "impact_area": "Health",
+    "long_description": "Long description for Organization A",
+    "website": "https://www.organization-a.org"
+  },
+  {
+    "id": "2",
+    "organization": "Organization B",
+    "short_description": "Short description for Organization B",
+    "dedicated_contact": false,
+    "languages": ["Java", "Ruby"],
+    "impact_area": "Environment",
+    "long_description": "Long description for Organization B",
+    "website": "https://www.organization-b.org"
+  },
+  {
+    "id": "3",
+    "organization": "Organization C",
+    "short_description": "Short description for Organization C",
+    "dedicated_contact": true,
+    "languages": ["C#", "PHP"],
+    "impact_area": "Education",
+    "long_description": "Long description for Organization C",
+    "website": "https://www.organization-c.org"
+  }
+]
